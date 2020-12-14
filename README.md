@@ -36,10 +36,10 @@ Es necesario que antes de ejecutar los programar, el servicio de RabbitMQ se enc
 
 Con el servicio de RabbitMQ activo, Es necesario ejecutar los 3 programas, los cuales pueden ser distribuidos en varios sistemas dentro de una misma red local que se discutira en el proximo segmento.
 
-El primer programa a ejecutar es el **Productor**, con el siguiente codigo
+El primer programa a ejecutar es el **Reportero**, con el siguiente codigo
 
 ```
-java -cp ".:amqp-client-5.7.1.jar:slf4j-api-1.7.26.jar:slf4j-simple-1.7.26.jar" Productor
+java -cp ".:amqp-client-5.7.1.jar:slf4j-api-1.7.26.jar:slf4j-simple-1.7.26.jar" Reportero
 ```
 
 Luego el programa de **Consumidor** con el siguiente codigo
